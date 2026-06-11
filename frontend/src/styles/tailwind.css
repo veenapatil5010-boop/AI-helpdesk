@@ -1,0 +1,19 @@
+/* Tailwind CSS is not installed in this environment.
+   This fallback file provides minimal base styles so the app can build.
+*/
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background, #f8fafc);
+  color: var(--foreground, #0f172a);
+}
